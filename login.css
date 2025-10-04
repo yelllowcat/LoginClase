@@ -42,7 +42,19 @@ justify-content: space-between;
 }
 .inputGroup > input{
     background-color: transparent;
+    border: none ;
+        color: white;
+
+}
+.inputGroup > input:focus{
+     background-color: transparent;
     border: none;
+        color: white;
+}
+
+.inputGroup > input:hover{
+     background-color: transparent;
+    border: none ;
 }
 label{
     color: white;
@@ -81,3 +93,7 @@ a{
 .register{
     font-weight: bolder;
 }
+::placeholder{
+    color: white;
+}
+
